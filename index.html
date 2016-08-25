@@ -12,19 +12,19 @@
 			<img src="images/logo.png">
 		</div>
 		<div class="signupform center">
-			<form class="" action="" method='post'>
+			<form action="/signup/" method='post'>
 				<fieldset name="signup-form">
 					<h1 class="centertext">Sign up</h1>
 					<div class="large-top-margin">
 						<label for="email">Email</label>
-						<input class="input-sizing" id="email" type="email" placeholder="foo@bar.com" required" />
+						<input class="input-sizing" name="email" id="email" type="email" placeholder="foo@bar.com" required" />
 					</div>
 					<div>
 						<label for="password">Password</label>
-						<input class="input-sizing" id="password" placeholder="1234passw0rd" required />
+						<input class="input-sizing" type="password" name="password" id="password" placeholder="1234passw0rd" required />
 					</div>
-					<button class="input-sizing" type="submit">Sign up</button>
-					<p class="centertext small-top-margin smallfont"><a href="">Forgot Password</a></p>
+					<button class="input-sizing whitetext" type="submit">Sign up</button>
+					<p class="greytext centertext small-top-margin smallfont"><a href="/forgot-password/new">Forgot Password</a></p>
 				</fieldset>
 			</form>
 		</div>

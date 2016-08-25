@@ -74,8 +74,16 @@ button {
 	background-color: #15C072;
 }
 
-.whitetext {
+button:hover {
+	background-color: #10995b;
+}
+
+.whitetext, .whitetext a{
 	color: white;
+}
+
+.greytext a {
+	color: #999999;
 }
 
 .smallfont {
